@@ -1,13 +1,13 @@
 import React from 'react'
-import help from '../assets/help.png'
-import search from "../assets/search.png"
-import message from "../assets/message.png"
-import avatar from "../assets/Avatar.png"
-import stroke from "../assets/Stroke.png"
-import vector from "../assets/vector.png"
-import ellipse from "../assets/Ellipse.png"
+import help from '../../assets/help.png'
+import search from "../../assets/search.png"
+import message from "../../assets/message.png"
+import avatar from "../../assets/Avatar.png"
+import stroke from "../../assets/Stroke.png"
+import vector from "../../assets/vector.png"
+import ellipse from "../../assets/Ellipse.png"
 
-const Header = () => {
+const Navbar = () => {
   return (
     <div className='p-4 bg-slate-100 flex justify-between items-center'>
       <div className='flex mx-6'>
@@ -34,4 +34,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Navbar
