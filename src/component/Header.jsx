@@ -9,7 +9,7 @@ import ellipse from "../assets/Ellipse.png"
 
 const Header = () => {
   return (
-    <div className='p-4 bg-slate-100 flex justify-between items-center w-screen'>
+    <div className='p-4 bg-slate-100 flex justify-between items-center'>
       <div className='flex mx-6'>
         <img className='p-4 bg-white' src={search} alt='help icon' />
         <input className='p-3 rounded-lg outline-none w-[480px]'
