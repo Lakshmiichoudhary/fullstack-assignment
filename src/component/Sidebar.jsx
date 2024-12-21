@@ -4,7 +4,7 @@ import dashboard from "../assets/dashboard.png"
 import students from '../assets/Frame.png'
 import report from "../assets/report.png"
 import chapter from "../assets/chapter.png"
-import setting from "../assets/Settings.png"
+import setting from "../assets/settings.png"
 import help from "../assets/help.png"
 
 const Sidebar = () => {
